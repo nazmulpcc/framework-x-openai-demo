@@ -1,0 +1,26 @@
+{
+  "name": "nazmulpcc/framework-x-openai-demo",
+  "description": "OpenAI api streaming demo with Framework X",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nazmul Alam",
+      "email": "nazmulpcc@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.2",
+    "clue/framework-x": "dev-main",
+    "nyholm/psr7": "^1.8",
+    "react/http": "^1.9",
+    "clue/reactphp-eventsource": "^1.1",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
